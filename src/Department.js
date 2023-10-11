@@ -111,7 +111,12 @@ export class Department extends Component {
     }
 
     render() {
-        const { departments, modalTitle, DepartmentName, DepartmentId } = this.state;
+        const {
+            departments,
+            modalTitle,
+            DepartmentName,
+            DepartmentId
+        } = this.state;
 
         return (
             <div>
